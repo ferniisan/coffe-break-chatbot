@@ -1,0 +1,15 @@
+{
+ "demo": true,
+ "products": [
+  {"id":"espresso","name":"Espresso","category":"coffee","sizes":{"chica":45,"mediana":55,"grande":65},"ingredients":["café espresso"],"tags":["coffee","hot","vegan"],"customizable":false},
+  {"id":"americano","name":"Americano","category":"coffee","sizes":{"chica":40,"mediana":50,"grande":60},"ingredients":["espresso","agua"],"tags":["coffee","hot","vegan"],"customizable":false},
+  {"id":"latte","name":"Latte","category":"coffee","sizes":{"chica":55,"mediana":65,"grande":75},"ingredients":["espresso","leche"],"tags":["coffee","hot"],"customizable":true,"extras":{"leche vegetal":12,"shot extra":15,"vainilla":8}},
+  {"id":"coldbrew","name":"Cold Brew","category":"coffee","sizes":{"chica":55,"mediana":65,"grande":75},"ingredients":["café infusionado en frío","agua"],"tags":["coffee","cold","vegan"],"customizable":false},
+  {"id":"matcha","name":"Matcha Latte","category":"tea","sizes":{"chica":60,"mediana":70,"grande":80},"ingredients":["matcha","leche"],"tags":["tea","hot"],"customizable":true,"extras":{"leche vegetal":12,"vainilla":8}},
+  {"id":"chai","name":"Chai Latte","category":"tea","sizes":{"chica":55,"mediana":65,"grande":75},"ingredients":["té chai","leche"],"tags":["tea","hot"],"customizable":true,"extras":{"leche vegetal":12}},
+  {"id":"lemonade","name":"Limonada","category":"other","sizes":{"chica":40,"mediana":50,"grande":60},"ingredients":["limón","agua","azúcar"],"tags":["cold","vegan"],"customizable":false},
+  {"id":"cookie","name":"Galleta de chocolate","category":"food","sizes":{"único":35},"ingredients":["harina","azúcar","chocolate","mantequilla"],"tags":["dessert"],"customizable":false},
+  {"id":"brownie","name":"Brownie","category":"food","sizes":{"único":45},"ingredients":["chocolate","harina","azúcar","huevo","mantequilla"],"tags":["dessert"],"customizable":false},
+  {"id":"muffin","name":"Muffin de arándano","category":"food","sizes":{"único":42},"ingredients":["harina","arándanos","huevo","azúcar"],"tags":["dessert"],"customizable":false}
+ ]
+}
